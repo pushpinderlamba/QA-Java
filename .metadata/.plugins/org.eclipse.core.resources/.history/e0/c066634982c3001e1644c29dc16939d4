@@ -1,0 +1,23 @@
+package exercise.abstraction;
+
+public class SavingsAccount implements Account {
+
+	@Override
+	public double deposit(double amount) {
+		
+		return amount;
+	}
+
+	@Override
+	public double withdraw(double amount) {
+		
+		if(amount>100) {
+		
+			return amount;
+	}
+		else {
+			System.out.println("Insufficient balance in savings account to perform a withdrawal.");
+		}
+
+}
+}

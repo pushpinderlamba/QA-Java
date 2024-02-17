@@ -1,0 +1,10 @@
+package Properties.collections;
+
+public class SortingSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package Homewok.Session;
+
+import java.util.Scanner;
+public class Rectangle implements Resizable {
+	
+
+	
+	int width;
+    int height;
+	@Override
+	public void resizeWidth(int width) {
+		this.width = width;
+		
+	}
+
+	@Override
+	public void resizeHeight(int height) {
+		this.height = height;
+		
+	}
+	
+}
+	
+	

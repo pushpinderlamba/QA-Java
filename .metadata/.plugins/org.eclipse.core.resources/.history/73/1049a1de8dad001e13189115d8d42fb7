@@ -1,0 +1,12 @@
+package string.scope;
+
+public class stringworld {
+
+	public static void main(String[] args) {
+		String teststr= "Alice in wonderland.It is a beautiful movie and a book";
+		
+	System.out.println(teststr.length());
+
+	}
+
+}

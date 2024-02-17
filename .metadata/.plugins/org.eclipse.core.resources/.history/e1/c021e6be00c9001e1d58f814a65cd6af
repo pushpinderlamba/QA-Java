@@ -1,0 +1,24 @@
+package Gen.types;
+
+import java.util.Set;
+import java.util.HashSet;
+public class DemoBook {
+
+	public static void main(String[] args) {
+		
+		    SortingBook b1=new SortingBook("B1","345");
+		    SortingBook b2=new SortingBook("B1","5679");
+		    SortingBook b3=new SortingBook("B3","2345679");
+		    SortingBook b4=new SortingBook("B4","7876");
+		    
+		    Set <Book> b=new HashSet<>();
+		    
+		    b.add(b1);
+		    b.add(b2);
+		    b.add(b3);
+		    b.add(b4);
+		    
+		    System.out.println(b);
+	}
+
+}

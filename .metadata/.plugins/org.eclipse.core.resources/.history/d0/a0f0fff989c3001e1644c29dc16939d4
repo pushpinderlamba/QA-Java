@@ -1,0 +1,19 @@
+package exercise.abstraction;
+
+public class Demo {
+	
+	public static void main(String[] args) {
+	
+	Calculator C= new ScientificCalculator();
+	
+	double Random = C.generaterandom();
+	
+	double Square =C.square(10);
+	
+	System.out.println(Random);
+	
+	System.out.println(Square);
+	
+
+}
+}

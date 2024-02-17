@@ -1,0 +1,19 @@
+package Sessioneight.inheritance;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+    Employees e = new HRManager();
+     e.work();
+     
+     e.getSalary();
+     
+     HRManager H = new HRManager ();
+     
+     
+       H.addEmployee();
+     
+	}
+
+}

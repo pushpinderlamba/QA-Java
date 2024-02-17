@@ -1,0 +1,10 @@
+package Demo.Except;
+
+public class IllegalArgumentException {
+
+	
+	public static void main(String[] args) throws InvalidArgumentsException {
+
+	    throw new InvalidArgumentsException("Throwing user defined exception");
+}
+}

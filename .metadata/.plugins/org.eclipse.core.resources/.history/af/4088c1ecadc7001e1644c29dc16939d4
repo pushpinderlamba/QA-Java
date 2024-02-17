@@ -1,0 +1,15 @@
+package Homewok.Session;
+
+public class Demo {
+	
+	public static void main(String[] args){
+		
+		Rectangle rectangle = new Rectangle(100, 150);
+		
+		rectangle.resizeWidth(150);
+        rectangle.resizeHeight(200);
+        
+        rectangle.printSize();
+	}
+
+}

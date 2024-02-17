@@ -1,0 +1,20 @@
+package Sessioneight.inheritance;
+
+public abstract class Person {
+	
+	abstract Eats();
+	 abstract Exercise;
+	
+	void eat() {
+		
+		System.out.println("Every Person eats the same way");
+	}
+	
+	void exercise() {
+		
+		System.out.println("Every Person exercises the different way");
+		
+		
+	}
+
+}

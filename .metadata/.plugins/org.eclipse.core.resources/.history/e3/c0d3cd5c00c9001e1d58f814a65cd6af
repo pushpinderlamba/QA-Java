@@ -1,0 +1,5 @@
+package Gen.types;
+
+public class SortingBook {
+
+}

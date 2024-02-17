@@ -1,0 +1,45 @@
+package Sessioneight.inheritance;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+  //  Employees e = new HRManager();
+  //   e.work();
+     
+  //   e.getSalary();
+     
+ //    HRManager H = new HRManager ();
+     
+     
+  //     H.addEmployee();
+       
+       
+         BankAccount B = new SavingsAccount();
+    	 
+    	 B.deposit(500);
+     
+         B.withdraw(400);
+       
+         SavingsAccount S = new  SavingsAccount();
+         
+         S.withdraw(400);
+   
+	
+	//Athlete A =  new Athlete();
+	
+	//LazyPerson L = new LazyPerson();
+	
+	//A.eat();
+	
+	//A.exercise();
+	
+	
+	//L.eat();
+	
+	//L.exercise();
+	
+	}
+	
+
+}

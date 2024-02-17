@@ -1,0 +1,13 @@
+package Sessioneight.inheritance;
+
+public class Athlete extends Person {
+
+	@Override
+	void eat() {
+		
+		
+	}
+
+	
+	}
+

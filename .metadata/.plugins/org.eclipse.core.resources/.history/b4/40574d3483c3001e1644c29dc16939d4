@@ -1,0 +1,11 @@
+package exercise.abstraction;
+
+public interface Account {
+	
+	double deposit(double amount);
+	
+	double withdraw(double amount);
+	
+	
+
+}

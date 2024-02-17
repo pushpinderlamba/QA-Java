@@ -1,0 +1,37 @@
+package Gen.types;
+
+public class Book {
+	
+	String name;
+	
+    String isbnno  ;
+    
+    public Book() {
+    		
+    }
+    public Book(String n,String isbn) {
+    	
+    	this.name = n;
+    	this.isbnno= isbn;
+    	
+    this.isbnno = isbn;
+    }
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getIsbnno() {
+		return isbnno;
+	}
+	public void setIsbnno(String isbn) {
+		this.isbnno = isbn;
+	}
+	@Override
+	public String toString() {
+		return "Book [name="+ n+ " , "isbnno  =" +isbn+"]";
+	}
+}
+
+

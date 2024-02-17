@@ -1,0 +1,26 @@
+package Constructor;
+
+public class Classtwo {
+
+	
+
+	Classtwo(){
+
+	    this(3);
+	    
+	    System.out.println("default constructor");
+	}
+
+	Classtwo(int x) {
+	    
+	    this(3, 4);
+
+	    System.out.println("Received:" +x);
+	    
+	}
+
+	Classtwo(int x, int y) {
+	    
+	    System.out.println("x+y="+( x+y));
+}
+}

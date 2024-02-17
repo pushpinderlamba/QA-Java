@@ -1,0 +1,30 @@
+package Homewok.Session;
+import java.util.Scanner;
+public class Demo {
+	  
+	
+	public static void main(String[] args){
+		
+		Scanner sc = new Scanner(System.in);
+	    System.out.println("Enter the width");
+	    int sc = sc.nextInt();
+	    
+	    Scanner sc1 = new Scanner(System.in);
+	    System.out.println("Enter the height");
+	    int sc1 = sc1.nextInt();
+		
+		
+		Rectangle rectangle = new Rectangle(sc,sc1);
+			
+			rectangle.printSize();
+		  
+			rectangle.resizeWidth(sc1);
+	        rectangle.resizeHeight(sc);
+	        
+	        rectangle.printSize();
+		 
+		   
+        
+	}
+
+}
